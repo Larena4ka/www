@@ -1,0 +1,16 @@
+--1) сделать БД с 1 табл. tblproducts c 3 полями: 
+--id - primary key id - autoincrement
+--name - varchar
+--created_at - date
+
+--2) затем простейший сайт, где будет
+--форма создания продукта
+--страница со списком продуктов
+--страница редактирования каждого продукта
+
+-- Создадим таблицу tblproducts. Создала. Заработало
+CREATE TABLE IF NOT EXISTS tblproducts (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(32),
+    created_at DATE,
+PRIMARY KEY(id)); 
